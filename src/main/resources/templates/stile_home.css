@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Luxurious+Roman&family=Outfit:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0
+}
+
+body, html {
+    width: 100;
+    height: 100;
+}
+
+a {
+    color: #ffff;
+    text-decoration: none;
+    transition: all.6s ease;
+    -ms-transition:all.6s ease;
+    -o-transition:all.6s ease;
+    -moz-transition:all.6s ease;
+    -webkit-transition:all.6s ease;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+    transition: all.6s ease;
+    -ms-transition:all.6s ease;
+    -o-transition:all.6s ease;
+    -moz-transition:all.6s ease;
+    -webkit-transition:all.6s ease;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto/9;
+    -moz-transition: all ease-out;
+    -o-transition: all ease-out;
+    -webkit-transition: all ease-out;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding:  0;
+}
+
+header {
+    float: left;
+    background-color: #000;
+    width: 99.4%;
+    padding: 0.3%;
+    color: white;
+    border-bottom: 5px solid #59595a;
+
+}
+
+header>div#logo>a>img {
+    width: 160px;
+    height: 120px;
+    float: left;
+
+}
+
+header>div#logo>a>span {
+    color: white;
+}
+
+@media (min-width: 1430px) {
+    header>div#logo>a>span {
+        font-size: 3.5em;
+        margin-left: 10px;
+        font-family: 'Libre Baskerville', serif;
+    }
+
+    #logo {
+        float: left;
+        width: 50%;
+    }
+
+    #about {
+        float: left;
+        width: 37%;
+    }
+
+    #socnet> {
+        float: left;
+        width: 30%;
+    }
+}
+
+@media (max-width: 1429px) and (min-width: 250px) {
+    header>div#logo>a>span {
+        font-size: 3.5em;
+        margin-left: 10px;
+        font-family: 'Libre Baskerville', serif;
+    }
+
+    #logo {
+        float: left;
+        width: 30%;
+    }
+
+    #about {
+        float: left;
+        width: 37%;
+    }
+
+    #socnet> {
+        float: left;
+        width: 30%;
+    }
+}
+
+#about {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.4em;
+    padding-top: 50px;
+}
+
+#about>a {
+    color: white;
+
+}
+
+#about>a:hover {
+    color:#22211F;
+    border-bottom: 1px solid silver;
+}
+
+#about>a {
+    margin-left: 6%;
+}
+
+
+#socnet>a>img {
+    float: right;
+    margin-right: 3%;
+    margin-top: 40px;
+    padding: 2px 6px;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+#content {
+    flex: 1 0 auto;
+}
+
+footer {
+    float: left;
+    background-color: #000;
+    width: 99.4%;
+    padding: 0.3%;
+    color: white;
+    border-top: 5px solid #59595a;
+}
